@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+.header{
+  background: url(img/bg.jpg);
+  background: cover;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.header .menu ul{
+  list-style: none;
+  width: 800px;
+  margin: 0 auto;
+}
+.header .menu ul li{
+  float: left; 
+  margin-top: 35px;
+}
+.header .menu ul li:nth-child(3){
+  margin-top: 10px;
+}
+.header .menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  margin: 0 40px;
+}
+.header .font{
+  margin: 240px 0;
+  margin-bottom: 150px;
+}
+.header .font h1{
+  font-style: 30px;
+  letter-spacing: 3px;
+}
+.header .font p{
+  font-size: 14px;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  margin: 20px 0;
+  margin-bottom: 30px;
+}
+.header .font button{
+  padding: 13px 25px;
+  border: none;
+  background-color: #16a085;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+.header .icon{
+  width: 200px;
+  margin: 0 auto;
+  padding-left: 10%;
+  list-style-type: none;
+}
+.header .icon li{
+  float: left;
+}
+.header .icon li a{
+  color: white;
+  margin-left: 8px;
+  text-decoration: none;
+  font-size: 21px;
+}
+.start{
+  overflow: hidden;
+  height: 460px;
+}
+.start .article{
+  width: 45%;
+  background: #f5f6f7;
+  height: 460px;
+}
+.start .img{
+  width:55%;
+}
+.start .fix{
+  float: left;
+}
+.start .fix .lorem{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 18%;
+}
+.start .fix .lorem h4{
+  color: #6eb9a8;
+  font-size: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.start .fix .lorem p{
+  text-transform: lowercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  margin: 9% 0;
+}
+.start .fix .lorem button{
+  padding: 14px 25px;
+  border: none;
+  background-color: #16a085;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+.design .phone{
+  width:55%;
+}
+.design .fix img{
+  height: 460px;
+}
+.design .fix{
+  float: left; 
+  height: 460px;
+}
+.design .pra{
+  width: 45%;
+}
+.design .pra .ph{
+  margin: 0 auto;
+  padding-top: 18%;
+  padding-right: 28%
+}
+.design .pra .ph p{
+  text-transform: lowercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  margin: 9% 0;
+}
+.design .pra .ph button{
+  padding: 14px 25px;
+  border: none;
+  background-color: #16a085;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+.design .pra .ph h3{
+  color: #6eb9a8;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.angle{
+  margin-top: 9%;
+  font-size: 14px;;
+}
+.angle a{
+  color: #000;
+}
+.angle a i{
+  font-size: 18px;
+  margin-right: 5px;
+}
+.comunity{
+  width: 100%;
+  background: #f5f6f7;
+  overflow: hidden;
+  height: 450px;
+  position: relative;
+}
+.single{
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 9%;
+}
+.left{
+  text-align: center;
+}
+.left h2{
+  margin-top: 4%;
+  text-transform: uppercase;
+}
+.left p{
+  margin-top: 5%;
+  font-size: 12px;
+}
+.comunity i{
+  position: absolute;
+  top: 20%;
+  left:92%;
+  font-size: 22px; 
+}
+.comunity span{
+  width: 20px;
+  position: absolute;
+  top: 20%;
+  left:92%;
+}
+.subscribe{
+  background: url(img/phototime4.jpg);
+  height: 700px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.subscribe .form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.subscribe h3{
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin-bottom: 7%;
+}
+.form input{
+  padding: 13px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+.form input[type="submit"]{
+  background: #16a085;
+  color: white;
+}
+.download{
+  text-align: center;
+  background: #f5f6f7;
+  padding: 70px 0;
+}
+.download .write{
+  margin:0 auto;
+  width: 50%;
+  padding: 35px 0;
+}
+.write h3{
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.write p{
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+.class{
+  width: 500px;
+  margin: 0 auto;
+}
+.class ul{
+  list-style: none;
+}
+.class ul li{
+  display: inline;
+}
+.class ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 15px;
+  background: #1abc9c;
+  color: white;  
+  padding: 12px 15px;
+  border-radius: 3px;
+}
+.class ul li a i{
+  padding-left: 50px;
+  font-size: 20pxclass;
+}
+.footer{
+  overflow: hidden;
+  position: relative;
+}
+.footer ul{
+  list-style: none;
+  margin: 3% 8%;
+  width: 300px;
+  overflow: hidden;
+}
+.footer ul li{
+  float: left;
+  border-right: 2px solid #1abc9c;
+}
+.footer ul li:last-child{
+  border-right: none;
+}
+.footer ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+.footer .copy{
+  margin-left: 8%;
+  padding-bottom: 40px;
+}
+.footer .last{
+  position: absolute;
+  top: 30%;
+  left: 85%;
+}
