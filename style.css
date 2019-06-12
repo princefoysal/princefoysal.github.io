@@ -97,7 +97,7 @@
 }
 .start .fix .lorem p{
   text-transform: lowercase;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 2px;
   line-height: 18px;
   margin: 9% 0;
@@ -302,4 +302,7 @@
   position: absolute;
   top: 30%;
   left: 85%;
+}
+.article .lorem span{
+  font-weight: bold;
 }
