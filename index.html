@@ -1,37 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Document</title>
+ <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/slick-theme.css">
+ <link rel="stylesheet" href="css/slick.css">
+ <link rel="stylesheet" href="style.css">
 </head>
-<body>
-	<nav>
-	<div class="container">
-		<h2>navbar</h2>
-		<ul>
-			<li><a href="">home</a></li>
-			<li><a href="">about</a></li>
-			<li><a href="">services</a></li>
-			<li><a href="">blog</a></li>
-		</ul>
-	</div>
-	<div class="mobile-menu">
-		<div class="container">
-			<button class="slider"><span>&#9776;</span></button>
-		<div class="dark-overlay">
-			<a href="">home</a>
-			<a href="">home</a>
-			<a href="">home</a>
-			<a href="">home</a>
-		</div>
-		</div>
-	</div>
+<body data-spy="scroll" data-target="#nav" data-offset="0">
+
+<header id="header" class="pt-3">
+		<img class="header-overlay" src="img/header-over.png" alt="">
+			<nav id="nav" class="navbar navbar-light navbar-expand-md">
+			<div class="container">
+			<a href="" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+				<button class="navbar-toggler" data-target="#main-nav" data-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+			<div id="main-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mt-3 mt-md-0 text-capitalize">
+					<li class="nav-item"><a href="#header" class="nav-link">home</a></li>
+					<li class="nav-item"><a href="#about-us-area" class="nav-link">about us</a></li>
+					<li class="nav-item"><a href="#work-area" class="nav-link">portfolio</a></li>
+					<li class="nav-item"><a href="#news-area" class="nav-link">blog</a></li>
+					<li class="nav-item"><a href="#contact-area" class="nav-link">contact us</a></li>
+				</ul>
+				<div class="nav-right mt-3 mt-md-0 ml-auto" >
+						<select name="" id="" class="border-0">
+				<option value="1">En</option>
+				<option value="2">Bg</option>
+				<option value="3">Ar</option>
+			</select>
+			<a href="#contact-area" class="btn text-danger ml-3">contact us <i class="fa fa-long-arrow-right text-danger ml-1 align-middle"></i></a>
+					</div>
+			</div>
+			</div>
 	</nav>
-	
-	
-	<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="script.js"></script>
+		<div class="hero-area">
+		
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1 id="textbanner">The Spirit of Digital Agency.</h1>
+						<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+						<a href="" class="btn btn-danger text-white mr-2">More About us</a> 
+						<a>Get in Touch</a>
+					</div>
+					<div class="col-md-6 d-none d-md-block">
+						<img src="img/header-left.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+</header>
+<section id="apps-area" class="py-3 py-md-5">
+<img class="app-overlay" src="img/app.png" alt="">
+	<div class="container">
+		<div class="row py-5">
+			<div class="col-md-4 mb-3">
+				<h2>
+					Anything you need,we’ve got you covered
+				</h2>
+				<a href="" class="btn btn-sm btn-danger text-white mt-3">get in touch</a>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+					<div class="card-body">
+						<a href=""><img src="img/icon-1.png" alt=""></a>
+						<h4>Web & Graphic Design</h4>
+						<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+					<div class="card-body">
+						<a href=""><img src="img/icon-1.png" alt=""></a>
+						<h4>Web & Graphic Design</h4>
+						<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="about-us-area">
+	<img class="about-overlay" src="img/about-lay.png" alt="">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mb-3">
+				<img src="img/about-left.png" alt="">
+			</div>
+			<div class="col-md-6 mb-3">
+				<a href="" class="text-danger">OUR COMPANY</a>
+				<h2>Some Fine Words About Us</h2>
+				<div class="slider">
+				 <div>
+				 	<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+				 </div>
+				 <div>
+				 	<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+				 </div>
+				 <div>
+				 	<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+				 </div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="work-area" class="py-3 py-md-5">
+	<img class="work-overlay" src="img/work-lay.png" alt="">
+	<div class="container">
+	<h2>See some of our Creative work.</h2>
+		<div class="row work-slider">
+			<div class="col-md-4 col-sm-6">
+				<img src="img/work.png" alt="">
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<img src="img/work.png" alt="">
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<img src="img/work.png" alt="">
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<img src="img/work.png" alt="">
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<img src="img/work.png" alt="">
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<img src="img/work.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="news-area" class="py-5">
+	<img src="img/cark-lay.png" alt="" class="news-overlay">
+	<div class="container">
+		<a href="" class="text-danger text-uppercase">blog stocks</a>
+		<h2>Check Our News</h2>
+		<div class="row">
+			<div class="col-md-4 mb-3">
+				<div class="card">
+					<div class="card-body">
+						<h5>New Adventure</h5>
+						<small>17 March 2019</small>
+						<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+						<div class="text-right"><a href=""><i class="fa fa-long-arrow-right text-danger"></i></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+					<div class="card-body">
+						<h5>New Adventure</h5>
+						<small>17 March 2019</small>
+						<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+						<div class="text-right"><a href=""><i class="fa fa-long-arrow-right text-danger"></i></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+					<div class="card-body">
+						<h5>New Adventure</h5>
+						<small>17 March 2019</small>
+						<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+						<div class="text-right"><a href=""><i class="fa fa-long-arrow-right text-danger"></i></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="contact-area" class="py-5">
+	<div class="container">
+	<h5 class="text-uppercase text-danger">contact us</h5>
+	<h2 class="text-capitalize">get in touch</h2>
+ <form action="">
+ 			<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Your Email">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Subject">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="form-group">
+					<textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Massage here..."></textarea>
+				</div>
+			</div>
+			<div class="col-md-12 text-center mt-3">
+				<input type="submit" value="Send Massage" class="btn btn-sm btn-danger text-white ">
+			</div>
+		</div>
+ </form>
+	</div>
+</section>
+<footer id="footer" class="text-center text-white py-5">
+	<div class="container">
+		<h5 class="text-white">Doop</h5>
+		<h2 class="text-uppercase text-danger">crativity avobe</h2>
+			<nav id="nav" class="navbar navbar-dark navbar-expand-sm">
+				<ul class="navbar-nav mt-3 mt-md-0 mx-auto text-capitalize">
+				<li class="nav-item"><a href="#header" class="nav-link">home</a></li>
+					<li class="nav-item"><a href="#about-us-area" class="nav-link">about us</a></li>
+					<li class="nav-item"><a href="#work-area" class="nav-link">portfolio</a></li>
+					<li class="nav-item"><a href="#news-area" class="nav-link">blog</a></li>
+					<li class="nav-item"><a href="#contact-area" class="nav-link">contact us</a></li>
+				</ul>
+	</nav>
+	<small class="text-white"> © 2019 - Doob,All Right Reserved</small>
+	<div class="social-area mt-3">
+		<a href=""><i class="fa fa-facebook"></i></a>
+		<a href=""><i class="fa fa-twitter"></i></a>
+		<a href=""><i class="fa fa-instagram"></i></a>
+	</div>
+	</div>
+</footer>
+
+
+
+
+
+ <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+     
+ <script src="js/textbanner.js"></script>
+ <script src="https://use.fontawesome.com/fa906fa26d.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+ <script src="script.js"></script>
 </body>
+
 </html>
