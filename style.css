@@ -1,274 +1,260 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-font-family: 'Work Sans', sans-serif;
-	color: #314584 ;
+	font-family: 'Abel', sans-serif;
 }
-html{
+
+html,
+body {
 	scroll-behavior: smooth;
 }
 
-.container{
-	width: 65%;
-	margin: 0 auto;
-}
-a{
-	color: #314584;
-	font-weight: 600;
-	font-size: 16px;
+.bg-black {
+	background: #000;
 }
 
-#header .header-overlay{
-	width: 600px;
-	position: absolute;
-	top: 2%;
-	right: 0;
-	z-index: -20;
-}
-#header nav{
-	padding: 10px 0;
-}
-#header nav a{
-	color: #314584;
-}
-nav .navbar-brand{
-	position: absolute;
-	top: 20%;
-	left: 7%;
-	padding-bottom: 0;
-}
-
-nav .btn i{
-	font-size: 15px;
-}
-nav .btn{
-	background: #fff;
-	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1),-1px 2px 3px rgba(0, 0, 0, 0.1);
-}
-.hero-area{
-	padding: 130px 0;
-}
-.hero-area .btn{
-	border-radius: 20px;
-	padding: 6px 20px;
-}
-.hero-area h5{
-	font-size: 16px;
-}
-.hero-area h1{
-	font-size: 50px;
-}
-.hero-area p{
-	font-size: 12px;
-	margin: 30px 0;
-}
-
-.hero-area .row img{
- width: 100%;
-	margin-left: 100px;
-	margin-top: -40px;
-}
-
-.app-overlay{
-	position: absolute;
-	width: 200px;
-}
-#apps-area .btn{
-	border-radius: 20px;
-	padding: 6px 20px;
-	font-size: 12px;
-}
-#apps-area h2{
-	font-size: 33px;
-	font-weight: 600;
-	line-height: 50px;
-}
-#apps-area .row img{
-	width: 40px;
-}
-#apps-area .row .card{
-	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1),-1px 2px 3px rgba(0, 0, 0, 0.1);
-	border: none;
-}
-#apps-area h4{
-	font-size: 20px;
-	font-weight: 600;
-	margin: 20px 0;
-}
-#apps-area p{
-	font-size: 12px;
-}
-#about-us-area{
-	position: relative;
-}
-#about-us-area .about-overlay{
-	position: absolute;
-	top: -50%;
-	right: 0;
-	width: 200px;
-	z-index: -20;
-}
-#about-us-area .row img{
-	width: 100%;
-	margin-left: -100px;
-}
-#about-us-area{
-	padding: 70px 0
-}
-#about-us-area a{
-	font-size: 12px;
-}
-#about-us-area h2{
-	font-size: 33px;
-	font-weight: 600;
-	line-height: 45px;
-	width: 70%;
-	margin: 20px 0;
-}
-#about-us-area p{
-	font-size: 12px;
-	width: 90%;
-}
-.slick-prev:before, .slick-next:before{
+.btn-black,
+.text-black {
 	color: #000;
 }
 
-#work-area .work-slider img{
-	width: 100%;
-	margin-bottom: 20px;
-}
-#work-area h2{
-	font-size: 32px;
-	font-weight: 600;
-	line-height: 43px;
-	width: 35%;
-	margin-bottom: 35px;
-}
-#work-area{
-	position: relative;
-}
-#work-area .work-overlay{
-	width: 600px;
-	position: absolute;
-	top: 13%;
-	left: 0;
-	z-index: -1;
-}
-#news-area h5{
-	font-size: 14px;
-	margin-bottom: 3px;
-}
-#news-area .card{
-	border: none;
-	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1),-1px 2px 3px rgba(0, 0, 0, 0.1);
-}
-#news-area h2{
-	font-size: 33px;
-	font-weight: 600;
-	margin-bottom: 40px;
-}
-#news-area a{
-	font-size: 16px;
-	font-weight: 600;
-}
-#news-area small{
-	color: #6e757a;
-	font-size: 11px;
-}
-#news-area p{
-	font-size: 12px;
-	margin: 15px 0;
-}
-#news-area .card-body:hover{
-	background: #ff3946;
-	transition: 1s;
-}
-#news-area .card-body:hover h5,#news-area .card-body:hover p,#news-area .card-body:hover small,#news-area .card-body:hover a i.fa{
-	color: #fff !important;
-}
-#news-area{
-	position: relative;
-}
-#news-area .news-overlay{
-	width: 250px;
-	position: absolute;
-	top: 35%;
-	right: 0;
-	z-index: -1;
-}
-#contact-area h2{
-	font-size: 33px;
-	font-weight: 600;
-	margin-bottom: 40px;
-}
-#contact-area h5{
-	font-size: 14px;
-	font-weight: 600;
-}
-#contact-area input,#contact-area textarea{
-	background: #f4fafe;
+p,
+a {
 	font-size: 12px;
 }
-#contact-area input[type="submit"]{
-	background: #ff3946;
-	border-radius: 20px;
-	padding: 6px 20px;
+
+.btn {
+	border-radius: 20px !important;
+	font-size: 12px;
 }
-#footer{
-	background: #314584;
+
+h2 {
+	font-size: 30px;
 }
-#footer a,#footer a i{
-	color: #fff !important;
+
+.container {
+	width: 65%;
+	margin: 0 auto;
 }
-#footer nav a{
-	font-size: 14px;
+
+/* header-area css */
+
+#header-area nav img {
+	width: 65px;
 }
-#footer .social-area a{
-	margin: 20px;
+
+#header-area nav button.navbar-toggler {
+	background: #ffda00;
+	border-radius: 0;
+	padding: 4px;
+}
+
+#header-area .hero-area h1 {
+	font-size: 100px;
+	width: 60%;
+}
+
+#header-area .hero-area p {
+	width: 60%;
+}
+
+#header-area .hero-area .btn {
+	padding: 13px 45px;
+}
+
+/* services-area css */
+
+#services-area img {
+	width: 20px;
+}
+
+#services-area a {
+	padding: 12px;
+	border-radius: 3px;
+}
+
+#services-area h3 {
+	padding-top: 10px
+}
+
+#services-area .btn {
+	padding: 10px 40px;
+}
+
+/* award-area css */
+
+#award-area {
+	text-align: center;
+}
+
+#award-area img {
+	width: 30px;
+}
+
+#award-area h5 {
+	font-size: 13px;
+}
+
+/* works-area css */
+
+#works-area p {
+	width: 65%;
+}
+
+#works-area .btn {
+	padding: 3px 20px;
+	border-radius: 3px !important;
+}
+
+#works-area h3 {
 	font-size: 20px;
 }
 
-@media all and (max-width: 980px){
-	.container{
+.projects .card {
+	height: 260px;
+}
+
+#works-area .project-btn .btn {
+	padding: 13px 45px;
+	border-radius: 20px !important;
+}
+
+.mixall .row {
+	width: 90%;
+	margin: auto;
+}
+
+.mixitup-control-active {
+	background: #ffc107;
+}
+
+/* testimonial-area css */
+
+#testimonial-area {
+	position: relative;
+}
+
+#testimonial-area img {
+	width: 150px;
+}
+
+#testimonial-area p {
+	width: 65%;
+}
+
+a.prevbtn {
+	position: absolute;
+	top: 60%;
+	left: 15%;
+}
+
+a.nextbtn {
+	position: absolute;
+	top: 60%;
+	right: 15%;
+}
+
+button.owl-dot span {
+	height: 10px;
+	width: 10px;
+	background: #666;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 30px 5px 0 5px;
+}
+
+button.owl-dot.active span {
+	background: #fff;
+}
+
+/* contact-area css */
+
+#contact-area p {
+	width: 65%;
+}
+
+.contact-content {
+	width: 80%;
+	margin: auto;
+}
+
+.contact-content .btn {
+	padding: 10px 75px;
+	margin-top: 10px;
+	color: #000;
+}
+
+/* social-area css */
+
+#social-area a {
+	padding: 10px 15px;
+	border-radius: 2px;
+	font-size: 20px;
+}
+
+/* footer-area css */
+
+#footer a.jump {
+	font-size: 22px;
+	font-weight: 600;
+	padding: 5px 13px;
+	border-radius: 2px;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	display: none
+}
+
+@media all and (max-width:1068px) {
+	.container {
 		width: 90%;
-		margin: auto;
 	}
-	nav .navbar-brand{
-		position: inherit;
-	}
-	#about-us-area .row img{
-		margin: 0;
-	}
-	#about-us-area h2{
-	width: 100%;
-}
-	#work-area h2{
-	width: 100%;
-}
-	
-.hero-area h1{
-	font-size: 42px;
-}
-	.hero-area{
-	padding: 70px 0;
-}
-}
-@media all and (max-width: 768px){
-	nav ul{
-		border-bottom: 1px solid #ccc;
-	}
-	.nav-right{
+
+	.contact-content {
 		width: 100%;
 	}
-	.nav-right a{
-		margin-left: 50% !important;
-		transform: translate(-50%,0);
+
+	#header-area .hero-area h1 {
+		width: 100%;
+		font-size: 50px
 	}
+
+	#header-area .hero-area p {
+		width: 100%;
+	}
+
+	#works-area p {
+		width: 100%;
+	}
+
+	.projects .card {
+		height: 200px;
+	}
+
+	#testimonial-area p {
+		width: 100%;
+	}
+	
+	a.prevbtn {
+	position: absolute;
+	top: 60%;
+	left: 3%;
 }
 
+a.nextbtn {
+	position: absolute;
+	top: 60%;
+	right: 5%;
+}
 
+	#contact-area p {
+		width: 100%;
+	}
 
-
+	#services-area {
+		text-align: center;
+	}
+}
