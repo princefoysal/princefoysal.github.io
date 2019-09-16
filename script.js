@@ -36,3 +36,8 @@ $('a.nextbtn').click(function () {
 	jQuery(".owl-carousel").trigger('next.owl');
 })
 var mixer = mixitup('.mixall');
+
+ $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
